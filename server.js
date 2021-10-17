@@ -8,16 +8,18 @@ app.get('/', (req, res) => {
     res.render('index');
 })
 
-app.get('/serviceability/:address', (req, res) => {
+app.get('/serviceability/', (req, res) => {
     let response={
         result: 'None',
-        address: req.params.address || ''
+        address: req.query.address || ''
     }
-    if(req.params.address.substr(0,1) == '3'){
+    if(req.query.address.substr(0,1) == '3'){
         response.result = 'Fibre';
     }
     res.json(response);
 })
+
+
 
 
 app.listen(port);
