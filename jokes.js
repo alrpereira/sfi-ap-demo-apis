@@ -1,4 +1,4 @@
-export default [
+export let jokesList = [
     "If at first you don't succeed; call it version 1.0.",
     "My software never has bugs. It just develops random features.",
     "I would love to change the world, but they won't give me the source code.",
