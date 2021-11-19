@@ -20,5 +20,20 @@ exports.jokesList = [
     "Hand over the calculator, friends don't let friends derive drunk.",
     "To err is human - and to blame it on a computer is even more so.",
     "CAPS LOCK - Preventing Login Since 1980.",
-    "There are only 10 types of people in the world: those that understand binary and those that don't."
+    "There are only 10 types of people in the world: those that understand binary and those that don't.",
+    "A floppy disc is kind of like Jesus, really. It died and became the icon of saving.",
+    "The leading source of computer problems is computer solutions.",
+    "Boss: I can clearly smell alcohol on somebody’s breath! - One of the staff: Um, boss, this is a video conference.",
+    "What happens when eight hobbits get together? They turn into a hobbyte.",
+    "Why did Thor lose his power of lightning as a teenager? Because he got grounded.",
+    "Last words of a Jedi apprentice, 'Of course I know which side the light saber comes out!'",
+    "Time is money. Therefore, ATMs are time machines.",
+    "I found the perfect new super hero name for me: Irony Man",
+    "Remember, before internet, how everybody thought the cause of dumbness was limited access to information?",
+    "Chuck Norris can talk about the Fight Club.",
+    "If I got 50 cents for every failed math exam, I’d have $ 6.30 now.",
+    "Do not go to the bathroom in a dream. It’s a trap!",
+    "What swims and starts with a T? Two ducks.",
+    "I fear my stuttering brother may never finish his prison sentence.",
+    "This gravity joke is getting a bit old, but I fall for it every time."
 ]
