@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
+import jokesList from 'jokes.js';
 
 app.set('view engine','ejs');
 
@@ -17,6 +18,10 @@ app.get('/serviceability/', (req, res) => {
         response.result = 'Fibre';
     }
     res.json(response);
+})
+
+app.get('/jokes', (req,res) => {
+    res.json(jokesList);
 })
 
 
