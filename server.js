@@ -21,7 +21,9 @@ app.get('/serviceability/', (req, res) => {
 })
 
 app.get('/jokes/', (req,res) => {
-    res.json(jokes.jokesList);
+    let joke = jokes.jokesList[Math.floor(Math.random() * jokes.jokesList.length)];
+    let resp = {joke: joke};
+    res.json(resp);
 })
 
 
